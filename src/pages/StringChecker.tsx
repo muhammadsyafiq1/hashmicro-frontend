@@ -87,13 +87,13 @@ export default function StringChecker() {
 
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
             <div style={{ background: "#f0fdf4", borderRadius: 8, padding: 14 }}>
-              <div style={{ fontSize: 12, color: "#16a34a", fontWeight: 600, marginBottom: 6 }}>✅ Matched Characters</div>
+              <div style={{ fontSize: 12, color: "#16a34a", fontWeight: 600, marginBottom: 6 }}> Matched Characters</div>
               <div style={{ fontFamily: "monospace", fontSize: 16, color: "#15803d", letterSpacing: 3 }}>
                 {result.matchedChars.length > 0 ? result.matchedChars.join(" ") : "—"}
               </div>
             </div>
             <div style={{ background: "#fef2f2", borderRadius: 8, padding: 14 }}>
-              <div style={{ fontSize: 12, color: "#dc2626", fontWeight: 600, marginBottom: 6 }}>❌ Not Matched</div>
+              <div style={{ fontSize: 12, color: "#dc2626", fontWeight: 600, marginBottom: 6 }}> Not Matched</div>
               <div style={{ fontFamily: "monospace", fontSize: 16, color: "#b91c1c", letterSpacing: 3 }}>
                 {result.notMatchedChars.length > 0 ? result.notMatchedChars.join(" ") : "—"}
               </div>
