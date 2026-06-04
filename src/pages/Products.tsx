@@ -21,7 +21,7 @@ export default function Products() {
   const [editId, setEditId] = useState<number | null>(null);
   const [showForm, setShowForm] = useState(false);
   const [msg, setMsg] = useState("");
-  const LIMIT = 10;
+  const LIMIT = 100;
 
   const notify = (m: string) => { setMsg(m); setTimeout(() => setMsg(""), 3000); };
 
