@@ -83,7 +83,7 @@ export default function Login() {
         </button>
 
         <div style={{ marginTop: 16, textAlign: "center", fontSize: 13, color: "#94a3b8" }}>
-          Demo: admin@hashmicro.com / admin123
+          Demo: syafiq@gmail.com / 12345
         </div>
       </div>
     </div>
